@@ -2,6 +2,8 @@ import HomeIcon from "../icons/HomeIcon"
 import LibraryIcon from "../icons/LibraryIcon"
 import SearchIcon from "../icons/SearchIcon"
 import SideMenuItem from "./SideMenuItem"
+import SideMenuCard from './SideMenuCard'
+import { playlists } from "../lib/data"
 
 export default function AsideMenu() {
   return (
@@ -26,6 +28,14 @@ export default function AsideMenu() {
             <LibraryIcon />
               Your Library
             </SideMenuItem>
+
+            {
+              playlists.map(playlist => (
+                <SideMenuCard 
+                  playlist={playlist}
+                />
+              ))
+            }
         </ul>
       </div>
     </nav>

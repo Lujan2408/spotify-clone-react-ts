@@ -9,7 +9,7 @@ function App() {
         <AsideMenu />
       </aside>
 
-      <main className='[grid-area:main] rounded-lg overflow-y-auto bg-zinc-900'>
+      <main className='[grid-area:main] rounded-lg overflow-y-auto '>
 
       </main>
 
