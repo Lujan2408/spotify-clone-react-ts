@@ -5,8 +5,8 @@ import SideMenuItem from "./SideMenuItem"
 
 export default function AsideMenu() {
   return (
-    <nav className=" flex flex-col flex-1 gap-2">
-      <div className=" bg-zinc-900 rounded-lg p-2">
+    <nav className="flex flex-col flex-1 gap-2">
+      <div className="bg-zinc-900 rounded-lg p-2">
         <ul>
           <SideMenuItem href="/">
             <HomeIcon />
@@ -20,9 +20,7 @@ export default function AsideMenu() {
         </ul>
       </div>
 
-      {/* #TODO ------
-      Fix your library cover full screen */}
-      <div className=" bg-zinc-900 rounded-lg p-2 flex-1">
+      <div className="bg-zinc-900 rounded-lg p-2 flex-1">
         <ul>
           <SideMenuItem href="/">
             <LibraryIcon />
